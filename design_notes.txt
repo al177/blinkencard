@@ -1,0 +1,117 @@
+
+
+IOs:
+
+Contiguous routing, counterclockwise on ICE40UP5K-SG48:
+
+Group 1:
+IOB_24a
+IOB_22a
+IOB_20a
+IOB_16a
+IOB_13b
+IOB_8a
+IOB_9b
+IOB_6a
+IOB_4a
+IOB_2a
+IOB_0a
+IOB_5b
+IOB_3b_G6
+
+Group 2:
+IOT_49a
+IOT_51a
+RGB2
+RGB1
+RGB0
+IOT_50b
+IOT_45a_G1
+IOT_48b
+IOT_46b_G0
+IOT_44b
+IOT_43a
+IOT_42b
+IOT_41a
+IOT_38b
+IOT_39a
+IOT_36b
+IOT_37a
+
+Reserve for UART:
+IOB_23a     - TX (out)
+IOB_25b_g3  - RX (in)
+
+SPI reserved
+IOB_32a     SPI_SO
+IOB_33b     SPI_SI
+IOB_34a     SPI_SCK
+IOB_35b     SPI_SS_B
+
+Button scheme:
+4 buttons, 2 L/R on left side, 2 1/0 on right side
+
+- L/R to choose bit or function position
+- FN LEDs to show the currently selected function group
+- 3 modes:
+    - idle mode - no editing
+    - A/D mode - edit A/D switches
+    - FN mode - Choose or toggle a FN switch
+- 5 LEDs to choose the FN group in (1/0) format
+    - R/S - Run/Stop
+        - Strobe R to start the CPU running, S to stop
+    - SS/SS - Single Step
+        - Single step the CPU. Same for both function states
+    - EX/EN - Examine / Examine Next
+        - EX - Select address and show data at the current A/D on DATA
+        - EN - Same as EX but increment addr after
+    - D/DN - Deposit / Deposit Next
+        - D -  Deposit the lower 8 bits of the A/D switches at the current addr (selected by EX/EN)
+        - DN - Same as D but increment addr after
+    - RS/EC - Reset / Everything Clear?
+
+Modal control state machine
+Key    |   in idle mode    in A/D mode     in FN mode
+-------+-----------------------------------------------
+  L    |   Enter A/D       Choose bit      Choose FN
+  R    |   Enter FN        Choose bit      Choose FN
+  1    |   Exec curr FN 1  Set bit         Exec FN 1
+  0    |   Exec curr FN 0  Clear bit       Exec FN 0
+ L+R   |   NONE            Return to idle  Return to idle
+ Hold 1|   Exec curr FN 1  Exec curr FN 1  Select FN & return to idle
+ Hold 0|   Exec curr FN 0  Exec curr FN 0  Select FN & return to idle
+
+NOTE: Keeping EX/EN and D/DN separate FNs makes it (more) inconvenient to enter code
+
+LEDs needed:
+- 16 address display / A/D input switch indicators
+- 8 D output
+- 8 control
+    - MEMR
+    - INP
+    - MI
+    - OUT
+    - HLTA
+    - STACK
+    - W0
+    - INT
+- 5 FN
+    - R/S
+    - SS/SS
+    - EX/EN
+    - D/DN
+    - RS/EC
+
+Speculative - Multiplexing LEDs:
+- 8 bits per column
+- 5 columns
+    - A[15:8]
+    - A[7:0]
+    - D[7:0]
+    - STAT[7:0]
+    - FN[4:0]
+- Uses 13 I/Os, fits entirely within spare group 1 pins
+- Per-IO sink is 8mA
+- Use 5x drive transistors for high side
+
+
