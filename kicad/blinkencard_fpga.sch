@@ -1,0 +1,210 @@
+EESchema Schematic File Version 4
+LIBS:blinkencard-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U1
+U 1 1 5DF07551
+P 2750 2000
+F 0 "U1" H 3080 2053 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 3080 1962 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 2750 650 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 2350 3000 50  0001 C CNN
+	1    2750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U1
+U 2 1 5DF087BC
+P 5550 3900
+F 0 "U1" H 5550 2825 50  0000 C CNN
+F 1 "ICE40UP5K-SG48ITR" H 5550 2734 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 5550 2550 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 5150 4900 50  0001 C CNN
+	2    5550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U1
+U 3 1 5DF0A464
+P 5450 1800
+F 0 "U1" H 5780 1903 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 5780 1812 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 5450 450 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 5050 2800 50  0001 C CNN
+	3    5450 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L FPGA_Lattice:ICE40UP5K-SG48ITR U1
+U 4 1 5DF0B81C
+P 9400 2350
+F 0 "U1" H 9630 2396 50  0000 L CNN
+F 1 "ICE40UP5K-SG48ITR" H 9630 2305 50  0000 L CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm" H 9400 1000 50  0001 C CNN
+F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 9000 3350 50  0001 C CNN
+	4    9400 2350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 3900 0    50   Output ~ 0
+LED_ROW_0
+Text GLabel 4950 3800 0    50   Output ~ 0
+LED_ROW_1
+Text GLabel 4950 3700 0    50   Output ~ 0
+LED_ROW_2
+Text GLabel 4950 3600 0    50   Output ~ 0
+LED_ROW_3
+Text GLabel 4950 3500 0    50   Output ~ 0
+LED_ROW_4
+Wire Wire Line
+	5050 3500 4950 3500
+Wire Wire Line
+	5050 3600 4950 3600
+Wire Wire Line
+	5050 3700 4950 3700
+Wire Wire Line
+	5050 3800 4950 3800
+Wire Wire Line
+	5050 3900 4950 3900
+Text GLabel 4950 2300 0    50   3State ~ 0
+LED_COL_1
+Text GLabel 4950 2200 0    50   3State ~ 0
+LED_COL_0
+Text GLabel 4950 2100 0    50   3State ~ 0
+LED_COL_2
+Text GLabel 4950 2000 0    50   3State ~ 0
+LED_COL_6
+Text GLabel 4950 1900 0    50   3State ~ 0
+LED_COL_3
+Text GLabel 4950 1800 0    50   3State ~ 0
+LED_COL_7
+Text GLabel 4950 1700 0    50   3State ~ 0
+LED_COL_4
+Text GLabel 4950 1600 0    50   3State ~ 0
+LED_COL_5
+Wire Wire Line
+	4950 1600 5050 1600
+Wire Wire Line
+	5050 1700 4950 1700
+Wire Wire Line
+	5050 1800 4950 1800
+Wire Wire Line
+	5050 1900 4950 1900
+Wire Wire Line
+	5050 2000 4950 2000
+Wire Wire Line
+	5050 2100 4950 2100
+Wire Wire Line
+	5050 2200 4950 2200
+Wire Wire Line
+	5050 2300 4950 2300
+Text GLabel 4950 4000 0    50   Output ~ 0
+FPGA_TXO
+Text GLabel 4950 4200 0    50   Input ~ 0
+FPGA_RXI
+Wire Wire Line
+	4950 4000 5050 4000
+Wire Wire Line
+	4950 4200 5050 4200
+Text GLabel 4950 4100 0    50   Input ~ 0
+FPGA_INT
+Wire Wire Line
+	5050 4100 4950 4100
+$Comp
+L power:+1V2 #PWR011
+U 1 1 5DF18774
+P 9500 1650
+F 0 "#PWR011" H 9500 1500 50  0001 C CNN
+F 1 "+1V2" H 9515 1823 50  0000 C CNN
+F 2 "" H 9500 1650 50  0001 C CNN
+F 3 "" H 9500 1650 50  0001 C CNN
+	1    9500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR09
+U 1 1 5DF18C39
+P 9300 1650
+F 0 "#PWR09" H 9300 1500 50  0001 C CNN
+F 1 "VDD" H 9317 1823 50  0000 C CNN
+F 2 "" H 9300 1650 50  0001 C CNN
+F 3 "" H 9300 1650 50  0001 C CNN
+	1    9300 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 1650 9300 1950
+Wire Wire Line
+	9400 1950 9400 1850
+Wire Wire Line
+	9400 1850 9500 1850
+Wire Wire Line
+	9500 1850 9500 1650
+Wire Wire Line
+	9500 1950 9500 1850
+Connection ~ 9500 1850
+$Comp
+L power:GND #PWR010
+U 1 1 5DF19E1A
+P 9400 2800
+F 0 "#PWR010" H 9400 2550 50  0001 C CNN
+F 1 "GND" H 9405 2627 50  0000 C CNN
+F 2 "" H 9400 2800 50  0001 C CNN
+F 3 "" H 9400 2800 50  0001 C CNN
+	1    9400 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9400 2750 9400 2800
+$Comp
+L power:VDD #PWR08
+U 1 1 5DF1A989
+P 5550 2700
+F 0 "#PWR08" H 5550 2550 50  0001 C CNN
+F 1 "VDD" H 5567 2873 50  0000 C CNN
+F 2 "" H 5550 2700 50  0001 C CNN
+F 3 "" H 5550 2700 50  0001 C CNN
+	1    5550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR07
+U 1 1 5DF1B34D
+P 5450 1000
+F 0 "#PWR07" H 5450 850 50  0001 C CNN
+F 1 "VDD" H 5467 1173 50  0000 C CNN
+F 2 "" H 5450 1000 50  0001 C CNN
+F 3 "" H 5450 1000 50  0001 C CNN
+	1    5450 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR06
+U 1 1 5DF1B618
+P 2750 800
+F 0 "#PWR06" H 2750 650 50  0001 C CNN
+F 1 "VDD" H 2767 973 50  0000 C CNN
+F 2 "" H 2750 800 50  0001 C CNN
+F 3 "" H 2750 800 50  0001 C CNN
+	1    2750 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 800  2750 900 
+Wire Wire Line
+	5450 1000 5450 1100
+Wire Wire Line
+	5550 2700 5550 2800
+$EndSCHEMATC
