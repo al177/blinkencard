@@ -207,4 +207,20 @@ Wire Wire Line
 	5450 1000 5450 1100
 Wire Wire Line
 	5550 2700 5550 2800
+Text GLabel 4950 4500 0    50   Output ~ 0
+FPGA_SO
+Text GLabel 4950 4600 0    50   Input ~ 0
+FPGA_SI
+Text GLabel 4950 4700 0    50   Input ~ 0
+FPGA_SCK
+Text GLabel 4950 4800 0    50   Input ~ 0
+FPGA_SS
+Wire Wire Line
+	4950 4500 5050 4500
+Wire Wire Line
+	4950 4600 5050 4600
+Wire Wire Line
+	4950 4700 5050 4700
+Wire Wire Line
+	4950 4800 5050 4800
 $EndSCHEMATC
