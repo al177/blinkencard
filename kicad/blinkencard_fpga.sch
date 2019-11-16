@@ -47,16 +47,12 @@ F 3 "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra" H 8050 3100 50 
 	4    8450 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 3500 0    50   Output ~ 0
+Text GLabel 2900 3600 0    50   Output ~ 0
 LED_ROW_0
 Text GLabel 2900 3400 0    50   Output ~ 0
-LED_ROW_1
-Text GLabel 2900 3200 0    50   Output ~ 0
 LED_ROW_2
-Text GLabel 2900 3600 0    50   Output ~ 0
+Text GLabel 2900 3200 0    50   Output ~ 0
 LED_ROW_3
-Text GLabel 2900 3300 0    50   Output ~ 0
-LED_ROW_4
 Wire Wire Line
 	3000 3200 2900 3200
 Wire Wire Line
@@ -668,4 +664,8 @@ F 3 "~" H 9400 5050 50  0001 C CNN
 	1    9400 5050
 	1    0    0    -1  
 $EndComp
+Text GLabel 2900 3500 0    50   Output ~ 0
+LED_ROW_1
+Text GLabel 2900 3300 0    50   Output ~ 0
+LED_ROW_4
 $EndSCHEMATC
