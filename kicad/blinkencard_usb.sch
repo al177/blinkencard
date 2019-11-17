@@ -190,7 +190,7 @@ NoConn ~ 4350 3650
 NoConn ~ 4350 3750
 NoConn ~ 4350 3850
 NoConn ~ 4350 2950
-Text GLabel 4450 4450 2    50   Output ~ 0
+Text GLabel 4450 4550 2    50   Output ~ 0
 FPGA_CRESET
 Text GLabel 4450 4650 2    50   Input ~ 0
 FPGA_INT
@@ -212,7 +212,7 @@ Text GLabel 4450 4250 2    50   Output ~ 0
 FPGA_SCK
 Text GLabel 4450 4350 2    50   Output ~ 0
 FPGA_SS
-Text GLabel 4450 4550 2    50   Input ~ 0
+Text GLabel 4450 4450 2    50   Input ~ 0
 FPGA_CDONE
 Wire Wire Line
 	4450 4350 4350 4350
@@ -594,4 +594,8 @@ F 3 "" H 10150 5050 50  0001 C CNN
 	1    10150 5050
 	1    0    0    -1  
 $EndComp
+Text Label 2000 2950 0    50   ~ 0
+D+
+Text Label 2000 3050 0    50   ~ 0
+D-
 $EndSCHEMATC

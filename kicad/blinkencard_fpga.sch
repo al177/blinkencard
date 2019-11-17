@@ -273,12 +273,12 @@ $EndComp
 $Comp
 L Device:C C7
 U 1 1 5DD3A06D
-P 9450 3850
-F 0 "C7" H 9565 3896 50  0000 L CNN
-F 1 "1uF" H 9565 3805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 3700 50  0001 C CNN
-F 3 "~" H 9450 3850 50  0001 C CNN
-	1    9450 3850
+P 9950 3850
+F 0 "C7" H 10065 3896 50  0000 L CNN
+F 1 "1uF" H 10065 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9988 3700 50  0001 C CNN
+F 3 "~" H 9950 3850 50  0001 C CNN
+	1    9950 3850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -461,7 +461,7 @@ Connection ~ 8950 5200
 Text Notes 8750 4800 0    50   ~ 0
 0.01 & 0.1 near SPI_VCCIO_1 & VPP_2V5\nOne 0.1 near each other VCCIO
 Text Notes 8750 3600 0    50   ~ 0
-Place near VCC
+Place near VCCs
 Text Notes 9550 1250 0    50   ~ 0
 Place near VCCPLL
 $Comp
@@ -642,9 +642,9 @@ Wire Wire Line
 	950  3000 3000 3000
 Wire Wire Line
 	550  3100 3000 3100
-Text GLabel 4950 3800 0    50   Output ~ 0
+Text GLabel 4950 3900 0    50   Output ~ 0
 FPGA_RTS
-Text GLabel 4950 3900 0    50   Input ~ 0
+Text GLabel 4950 3800 0    50   Input ~ 0
 FPGA_CTS
 Wire Wire Line
 	4950 3800 5050 3800
@@ -668,4 +668,21 @@ Text GLabel 2900 3500 0    50   Output ~ 0
 LED_ROW_1
 Text GLabel 2900 3300 0    50   Output ~ 0
 LED_ROW_4
+$Comp
+L Device:C C18
+U 1 1 5DDB0604
+P 9450 3850
+F 0 "C18" H 9565 3896 50  0000 L CNN
+F 1 "0.1uF" H 9565 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9488 3700 50  0001 C CNN
+F 3 "~" H 9450 3850 50  0001 C CNN
+	1    9450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 3700 9950 3700
+Connection ~ 9450 3700
+Wire Wire Line
+	9950 4000 9450 4000
+Connection ~ 9450 4000
 $EndSCHEMATC
