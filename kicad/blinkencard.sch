@@ -29,7 +29,7 @@ $EndSheet
 $Sheet
 S 3650 4600 3300 1700
 U 5DDAD9CA
-F0 "usb_and_power" 50
-F1 "blinkencard_usb.sch" 50
+F0 "wifi_and_power" 50
+F1 "blinkencard_wifi_pwr.sch" 50
 $EndSheet
 $EndSCHEMATC
