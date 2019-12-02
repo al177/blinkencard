@@ -1,4 +1,4 @@
-update=Mon 18 Nov 2019 01:25:30 AM CST
+update=Sun 01 Dec 2019 10:18:34 PM CST
 version=1
 last_client=kicad
 [general]
@@ -12,6 +12,16 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=v1.0/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -264,20 +274,10 @@ dPairViaGap=0.25
 Name=PWR
 Clearance=0.127
 TrackWidth=0.6
-ViaDiameter=0.95
-ViaDrill=0.6
+ViaDiameter=0.6
+ViaDrill=0.3
 uViaDiameter=0.6
 uViaDrill=0.3
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=v1.0/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
