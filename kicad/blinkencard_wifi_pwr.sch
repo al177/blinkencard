@@ -489,13 +489,10 @@ F 3 "" H 4550 2100 50  0001 C CNN
 	1    4550 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 5750 2300 2    50   Output ~ 0
+Text GLabel 5750 2400 2    50   Output ~ 0
 ESP_EN
-Wire Wire Line
-	5750 2300 5600 2300
-NoConn ~ 5600 2400
 NoConn ~ 5600 2500
-Text GLabel 4950 2300 0    50   Input ~ 0
+Text GLabel 4950 2400 0    50   Input ~ 0
 ESP_BOOTLOADER
 Wire Wire Line
 	4900 2100 4900 2200
@@ -503,9 +500,6 @@ Wire Wire Line
 	4900 2200 5100 2200
 Wire Wire Line
 	4550 2100 4900 2100
-Wire Wire Line
-	4950 2300 5100 2300
-NoConn ~ 5100 2400
 Text Notes 4400 1950 0    50   ~ 0
 Connector for ESP-01 style UART adapter.\nMake sure to check pinout of adapter so that it matches using a pogo header
 $Comp
@@ -558,4 +552,10 @@ Wire Wire Line
 	3400 4350 3200 4350
 Wire Wire Line
 	3200 4450 3400 4450
+Wire Wire Line
+	4950 2400 5100 2400
+NoConn ~ 5100 2300
+NoConn ~ 5600 2300
+Wire Wire Line
+	5600 2400 5750 2400
 $EndSCHEMATC
