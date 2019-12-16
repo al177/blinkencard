@@ -819,8 +819,6 @@ F 3 "~" H 9550 3600 50  0001 C CNN
 	1    9550 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 3600 9350 3600
 $Comp
 L power:+BATT #PWR026
 U 1 1 5DEFD199
@@ -850,4 +848,8 @@ Wire Wire Line
 Wire Wire Line
 	10250 3600 9950 3600
 Connection ~ 9950 3600
+Wire Wire Line
+	8600 3600 9350 3600
+Text Label 8700 3600 0    50   ~ 0
+UNSWITCHED_VPP
 $EndSCHEMATC

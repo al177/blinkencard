@@ -1,4 +1,4 @@
-16281030092729866
+16326015542973968
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -9667,12 +9667,54 @@ connector Hirose  top entry
 17
 16
 Connector_Hirose
+Hirose_DF63-1P-3.96DSA_1x01_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-1P-3.96DSA, 1 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+1
+1
+Connector_Hirose
+Hirose_DF63-2P-3.96DSA_1x02_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-2P-3.96DSA, 2 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+2
+2
+Connector_Hirose
+Hirose_DF63-3P-3.96DSA_1x03_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-3P-3.96DSA, 3 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+3
+3
+Connector_Hirose
+Hirose_DF63-4P-3.96DSA_1x04_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-4P-3.96DSA, 4 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+4
+4
+Connector_Hirose
+Hirose_DF63-5P-3.96DSA_1x05_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+5
+5
+Connector_Hirose
 Hirose_DF63-5P-3.96DSA_1x05_P3.96mm_Vertical
 Hirose DF63 through hole, DF63-5P-3.96DSA, 5 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
 connector Hirose DF63 vertical
 0
 5
 5
+Connector_Hirose
+Hirose_DF63-6P-3.96DSA_1x06_P3.96mm_Horizontal
+Molex DF63 through hole, DF63-6P-3.96DSA, 6 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
+connector Hirose  top entry
+0
+6
+6
 Connector_Hirose
 Hirose_DF63-6P-3.96DSA_1x06_P3.96mm_Vertical
 Hirose DF63 through hole, DF63-6P-3.96DSA, 6 Pins per row (https://www.hirose.com/product/en/products/DF63/), generated with kicad-footprint-generator
@@ -17311,12 +17353,26 @@ connector Molex Sabre top entry
 90
 6
 Connector_Molex
+Molex_SlimStack_52991-0200_2x10_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0200, 20 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+20
+20
+Connector_Molex
 Molex_SlimStack_52991-0208_2x10_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0208, 20 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 20
 20
+Connector_Molex
+Molex_SlimStack_52991-0300_2x15_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0300, 30 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+30
+30
 Connector_Molex
 Molex_SlimStack_52991-0308_2x15_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0308, 30 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
@@ -17325,12 +17381,26 @@ connector Molex SlimStack vertical
 30
 30
 Connector_Molex
+Molex_SlimStack_52991-0400_2x20_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0400, 40 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+40
+40
+Connector_Molex
 Molex_SlimStack_52991-0408_2x20_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0408, 40 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 40
 40
+Connector_Molex
+Molex_SlimStack_52991-0500_2x25_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0500, 50 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+50
+50
 Connector_Molex
 Molex_SlimStack_52991-0508_2x25_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0508, 50 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
@@ -17339,6 +17409,13 @@ connector Molex SlimStack vertical
 50
 50
 Connector_Molex
+Molex_SlimStack_52991-0600_2x30_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0600, 60 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+60
+60
+Connector_Molex
 Molex_SlimStack_52991-0608_2x30_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0608, 60 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
@@ -17346,12 +17423,26 @@ connector Molex SlimStack vertical
 60
 60
 Connector_Molex
+Molex_SlimStack_52991-0700_2x35_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0700, 70 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+70
+70
+Connector_Molex
 Molex_SlimStack_52991-0708_2x35_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0708, 70 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
 connector Molex SlimStack vertical
 0
 70
 70
+Connector_Molex
+Molex_SlimStack_52991-0800_2x40_P0.50mm_Vertical
+Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0800, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
+connector Molex SlimStack side entry
+0
+80
+80
 Connector_Molex
 Molex_SlimStack_52991-0808_2x40_P0.50mm_Vertical
 Molex SlimStack Fine-Pitch SMT Board-to-Board Connectors, 52991-0808, 80 Pins (http://www.molex.com/pdm_docs/sd/529910308_sd.pdf), generated with kicad-footprint-generator
@@ -57731,6 +57822,13 @@ NXP LGA NoLead
 Package_LGA
 NXP_LGA-8_3x5mm_P1.25mm_H1.2mm
 NXP  LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+NXP LGA NoLead
+0
+8
+8
+Package_LGA
+NXP_MPL115A1_LGA-8_3x5mm_P1.25mm
+NXP MPL115A1 LGA, 8 Pin (https://www.nxp.com/docs/en/data-sheet/MPL115A1.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 NXP LGA NoLead
 0
 8
