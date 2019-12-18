@@ -695,7 +695,7 @@ F 3 "" H 8300 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8300 1250 8300 1400
+	8300 1250 8300 1350
 $Comp
 L power:GND #PWR0114
 U 1 1 5DEC9660
@@ -870,4 +870,39 @@ Wire Notes Line
 	4150 2600 4150 1550
 Wire Notes Line
 	4150 1550 6400 1550
+Wire Notes Line
+	3800 650  4800 650 
+Wire Notes Line
+	4800 650  4800 1000
+Wire Notes Line
+	4800 1000 3800 1000
+Wire Notes Line
+	3800 1000 3800 650 
+$Comp
+L Device:C C?
+U 1 1 5DFB6317
+P 7550 1500
+F 0 "C?" H 7665 1546 50  0000 L CNN
+F 1 "10.0uF" H 7665 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7588 1350 50  0001 C CNN
+F 3 "~" H 7550 1500 50  0001 C CNN
+	1    7550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DFB6E84
+P 7550 1650
+F 0 "#PWR?" H 7550 1400 50  0001 C CNN
+F 1 "GND" H 7700 1550 50  0000 C CNN
+F 2 "" H 7550 1650 50  0001 C CNN
+F 3 "" H 7550 1650 50  0001 C CNN
+	1    7550 1650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7550 1350 8300 1350
+Connection ~ 8300 1350
+Wire Wire Line
+	8300 1350 8300 1400
 $EndSCHEMATC
