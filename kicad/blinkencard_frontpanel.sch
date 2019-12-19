@@ -1,15 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:blinkencard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 4
-Title ""
+Title "Blinkencard"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "v2.0"
+Comp "Andrew Litt"
+Comment1 "Front Panel - LED and pushbuttons"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -22,6 +21,7 @@ F 0 "D14" V 3350 1750 50  0000 R CNN
 F 1 "LED_Small" V 3405 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3450 1800 50  0001 C CNN
 F 3 "~" V 3450 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3350 1850 50  0001 C CNN " mfg_part"
 	1    3450 1800
 	0    -1   -1   0   
 $EndComp
@@ -33,6 +33,7 @@ F 0 "D13" V 3600 1750 50  0000 R CNN
 F 1 "LED_Small" V 3655 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3700 1800 50  0001 C CNN
 F 3 "~" V 3700 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3600 1850 50  0001 C CNN " mfg_part"
 	1    3700 1800
 	0    -1   -1   0   
 $EndComp
@@ -44,6 +45,7 @@ F 0 "D12" V 3850 1750 50  0000 R CNN
 F 1 "LED_Small" V 3905 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3950 1800 50  0001 C CNN
 F 3 "~" V 3950 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3850 1850 50  0001 C CNN " mfg_part"
 	1    3950 1800
 	0    -1   -1   0   
 $EndComp
@@ -55,6 +57,7 @@ F 0 "D11" V 4100 1750 50  0000 R CNN
 F 1 "LED_Small" V 4155 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4200 1800 50  0001 C CNN
 F 3 "~" V 4200 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4100 1850 50  0001 C CNN " mfg_part"
 	1    4200 1800
 	0    -1   -1   0   
 $EndComp
@@ -66,6 +69,7 @@ F 0 "D10" V 4350 1750 50  0000 R CNN
 F 1 "LED_Small" V 4405 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4450 1800 50  0001 C CNN
 F 3 "~" V 4450 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4350 1850 50  0001 C CNN " mfg_part"
 	1    4450 1800
 	0    -1   -1   0   
 $EndComp
@@ -77,6 +81,7 @@ F 0 "D15" V 3100 1750 50  0000 R CNN
 F 1 "LED_Small" V 3155 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3200 1800 50  0001 C CNN
 F 3 "~" V 3200 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3100 1850 50  0001 C CNN " mfg_part"
 	1    3200 1800
 	0    -1   -1   0   
 $EndComp
@@ -88,6 +93,7 @@ F 0 "D16" V 2850 1750 50  0000 R CNN
 F 1 "LED_Small" V 2905 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2950 1800 50  0001 C CNN
 F 3 "~" V 2950 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2850 1850 50  0001 C CNN " mfg_part"
 	1    2950 1800
 	0    -1   -1   0   
 $EndComp
@@ -99,6 +105,7 @@ F 0 "D17" V 2600 1750 50  0000 R CNN
 F 1 "LED_Small" V 2655 1732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2700 1800 50  0001 C CNN
 F 3 "~" V 2700 1800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2600 1850 50  0001 C CNN " mfg_part"
 	1    2700 1800
 	0    -1   -1   0   
 $EndComp
@@ -110,6 +117,7 @@ F 0 "D24" V 3350 2200 50  0000 R CNN
 F 1 "LED_Small" V 3405 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3450 2300 50  0001 C CNN
 F 3 "~" V 3450 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3350 2300 50  0001 C CNN " mfg_part"
 	1    3450 2300
 	0    -1   -1   0   
 $EndComp
@@ -121,6 +129,7 @@ F 0 "D23" V 3600 2200 50  0000 R CNN
 F 1 "LED_Small" V 3655 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3700 2300 50  0001 C CNN
 F 3 "~" V 3700 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3600 2300 50  0001 C CNN " mfg_part"
 	1    3700 2300
 	0    -1   -1   0   
 $EndComp
@@ -132,6 +141,7 @@ F 0 "D22" V 3850 2200 50  0000 R CNN
 F 1 "LED_Small" V 3905 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3950 2300 50  0001 C CNN
 F 3 "~" V 3950 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3850 2300 50  0001 C CNN " mfg_part"
 	1    3950 2300
 	0    -1   -1   0   
 $EndComp
@@ -143,6 +153,7 @@ F 0 "D21" V 4100 2200 50  0000 R CNN
 F 1 "LED_Small" V 4155 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4200 2300 50  0001 C CNN
 F 3 "~" V 4200 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4100 2300 50  0001 C CNN " mfg_part"
 	1    4200 2300
 	0    -1   -1   0   
 $EndComp
@@ -154,6 +165,7 @@ F 0 "D20" V 4350 2200 50  0000 R CNN
 F 1 "LED_Small" V 4405 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4450 2300 50  0001 C CNN
 F 3 "~" V 4450 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4350 2300 50  0001 C CNN " mfg_part"
 	1    4450 2300
 	0    -1   -1   0   
 $EndComp
@@ -165,6 +177,7 @@ F 0 "D25" V 3100 2200 50  0000 R CNN
 F 1 "LED_Small" V 3155 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3200 2300 50  0001 C CNN
 F 3 "~" V 3200 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3100 2300 50  0001 C CNN " mfg_part"
 	1    3200 2300
 	0    -1   -1   0   
 $EndComp
@@ -176,6 +189,7 @@ F 0 "D26" V 2850 2200 50  0000 R CNN
 F 1 "LED_Small" V 2905 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2950 2300 50  0001 C CNN
 F 3 "~" V 2950 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2850 2300 50  0001 C CNN " mfg_part"
 	1    2950 2300
 	0    -1   -1   0   
 $EndComp
@@ -187,6 +201,7 @@ F 0 "D27" V 2600 2200 50  0000 R CNN
 F 1 "LED_Small" V 2655 2232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2700 2300 50  0001 C CNN
 F 3 "~" V 2700 2300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2600 2300 50  0001 C CNN " mfg_part"
 	1    2700 2300
 	0    -1   -1   0   
 $EndComp
@@ -198,6 +213,7 @@ F 0 "D54" V 3350 3700 50  0000 R CNN
 F 1 "LED_Small" V 3405 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3450 3800 50  0001 C CNN
 F 3 "~" V 3450 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3350 3800 50  0001 C CNN " mfg_part"
 	1    3450 3800
 	0    -1   -1   0   
 $EndComp
@@ -209,6 +225,7 @@ F 0 "D53" V 3600 3700 50  0000 R CNN
 F 1 "LED_Small" V 3655 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3700 3800 50  0001 C CNN
 F 3 "~" V 3700 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3600 3800 50  0001 C CNN " mfg_part"
 	1    3700 3800
 	0    -1   -1   0   
 $EndComp
@@ -220,6 +237,7 @@ F 0 "D52" V 3850 3700 50  0000 R CNN
 F 1 "LED_Small" V 3905 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3950 3800 50  0001 C CNN
 F 3 "~" V 3950 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3850 3800 50  0001 C CNN " mfg_part"
 	1    3950 3800
 	0    -1   -1   0   
 $EndComp
@@ -231,6 +249,7 @@ F 0 "D51" V 4100 3700 50  0000 R CNN
 F 1 "LED_Small" V 4155 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4200 3800 50  0001 C CNN
 F 3 "~" V 4200 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4100 3800 50  0001 C CNN " mfg_part"
 	1    4200 3800
 	0    -1   -1   0   
 $EndComp
@@ -242,6 +261,7 @@ F 0 "D50" V 4350 3700 50  0000 R CNN
 F 1 "LED_Small" V 4405 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4450 3800 50  0001 C CNN
 F 3 "~" V 4450 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4350 3800 50  0001 C CNN " mfg_part"
 	1    4450 3800
 	0    -1   -1   0   
 $EndComp
@@ -253,6 +273,7 @@ F 0 "D55" V 3100 3700 50  0000 R CNN
 F 1 "LED_Small" V 3155 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3200 3800 50  0001 C CNN
 F 3 "~" V 3200 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3100 3800 50  0001 C CNN " mfg_part"
 	1    3200 3800
 	0    -1   -1   0   
 $EndComp
@@ -264,6 +285,7 @@ F 0 "D56" V 2850 3700 50  0000 R CNN
 F 1 "LED_Small" V 2905 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2950 3800 50  0001 C CNN
 F 3 "~" V 2950 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2850 3800 50  0001 C CNN " mfg_part"
 	1    2950 3800
 	0    -1   -1   0   
 $EndComp
@@ -275,6 +297,7 @@ F 0 "D57" V 2600 3700 50  0000 R CNN
 F 1 "LED_Small" V 2655 3732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2700 3800 50  0001 C CNN
 F 3 "~" V 2700 3800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2600 3800 50  0001 C CNN " mfg_part"
 	1    2700 3800
 	0    -1   -1   0   
 $EndComp
@@ -286,6 +309,7 @@ F 0 "D34" V 3350 2700 50  0000 R CNN
 F 1 "LED_Small" V 3405 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3450 2800 50  0001 C CNN
 F 3 "~" V 3450 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3350 2800 50  0001 C CNN " mfg_part"
 	1    3450 2800
 	0    -1   -1   0   
 $EndComp
@@ -297,6 +321,7 @@ F 0 "D33" V 3600 2700 50  0000 R CNN
 F 1 "LED_Small" V 3655 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3700 2800 50  0001 C CNN
 F 3 "~" V 3700 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3600 2800 50  0001 C CNN " mfg_part"
 	1    3700 2800
 	0    -1   -1   0   
 $EndComp
@@ -308,6 +333,7 @@ F 0 "D32" V 3850 2700 50  0000 R CNN
 F 1 "LED_Small" V 3905 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3950 2800 50  0001 C CNN
 F 3 "~" V 3950 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3850 2800 50  0001 C CNN " mfg_part"
 	1    3950 2800
 	0    -1   -1   0   
 $EndComp
@@ -319,6 +345,7 @@ F 0 "D31" V 4100 2700 50  0000 R CNN
 F 1 "LED_Small" V 4155 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4200 2800 50  0001 C CNN
 F 3 "~" V 4200 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4100 2800 50  0001 C CNN " mfg_part"
 	1    4200 2800
 	0    -1   -1   0   
 $EndComp
@@ -330,6 +357,7 @@ F 0 "D30" V 4350 2700 50  0000 R CNN
 F 1 "LED_Small" V 4405 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4450 2800 50  0001 C CNN
 F 3 "~" V 4450 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4350 2800 50  0001 C CNN " mfg_part"
 	1    4450 2800
 	0    -1   -1   0   
 $EndComp
@@ -341,6 +369,7 @@ F 0 "D35" V 3100 2700 50  0000 R CNN
 F 1 "LED_Small" V 3155 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3200 2800 50  0001 C CNN
 F 3 "~" V 3200 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3100 2800 50  0001 C CNN " mfg_part"
 	1    3200 2800
 	0    -1   -1   0   
 $EndComp
@@ -352,6 +381,7 @@ F 0 "D36" V 2850 2700 50  0000 R CNN
 F 1 "LED_Small" V 2905 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2950 2800 50  0001 C CNN
 F 3 "~" V 2950 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2850 2800 50  0001 C CNN " mfg_part"
 	1    2950 2800
 	0    -1   -1   0   
 $EndComp
@@ -363,6 +393,7 @@ F 0 "D37" V 2600 2700 50  0000 R CNN
 F 1 "LED_Small" V 2655 2732 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2700 2800 50  0001 C CNN
 F 3 "~" V 2700 2800 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2600 2800 50  0001 C CNN " mfg_part"
 	1    2700 2800
 	0    -1   -1   0   
 $EndComp
@@ -374,6 +405,7 @@ F 0 "D44" V 3350 3200 50  0000 R CNN
 F 1 "LED_Small" V 3405 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3450 3300 50  0001 C CNN
 F 3 "~" V 3450 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3350 3300 50  0001 C CNN " mfg_part"
 	1    3450 3300
 	0    -1   -1   0   
 $EndComp
@@ -385,6 +417,7 @@ F 0 "D43" V 3600 3200 50  0000 R CNN
 F 1 "LED_Small" V 3655 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3700 3300 50  0001 C CNN
 F 3 "~" V 3700 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3600 3300 50  0001 C CNN " mfg_part"
 	1    3700 3300
 	0    -1   -1   0   
 $EndComp
@@ -396,6 +429,7 @@ F 0 "D42" V 3850 3200 50  0000 R CNN
 F 1 "LED_Small" V 3905 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3950 3300 50  0001 C CNN
 F 3 "~" V 3950 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3850 3300 50  0001 C CNN " mfg_part"
 	1    3950 3300
 	0    -1   -1   0   
 $EndComp
@@ -407,6 +441,7 @@ F 0 "D41" V 4100 3200 50  0000 R CNN
 F 1 "LED_Small" V 4155 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4200 3300 50  0001 C CNN
 F 3 "~" V 4200 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4100 3300 50  0001 C CNN " mfg_part"
 	1    4200 3300
 	0    -1   -1   0   
 $EndComp
@@ -418,6 +453,7 @@ F 0 "D40" V 4350 3200 50  0000 R CNN
 F 1 "LED_Small" V 4405 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 4450 3300 50  0001 C CNN
 F 3 "~" V 4450 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 4350 3300 50  0001 C CNN " mfg_part"
 	1    4450 3300
 	0    -1   -1   0   
 $EndComp
@@ -429,6 +465,7 @@ F 0 "D45" V 3100 3200 50  0000 R CNN
 F 1 "LED_Small" V 3155 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 3200 3300 50  0001 C CNN
 F 3 "~" V 3200 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 3100 3300 50  0001 C CNN " mfg_part"
 	1    3200 3300
 	0    -1   -1   0   
 $EndComp
@@ -440,6 +477,7 @@ F 0 "D46" V 2850 3200 50  0000 R CNN
 F 1 "LED_Small" V 2905 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2950 3300 50  0001 C CNN
 F 3 "~" V 2950 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2850 3300 50  0001 C CNN " mfg_part"
 	1    2950 3300
 	0    -1   -1   0   
 $EndComp
@@ -451,6 +489,7 @@ F 0 "D47" V 2600 3200 50  0000 R CNN
 F 1 "LED_Small" V 2655 3232 50  0001 R CNN
 F 2 "blinkencard:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm" V 2700 3300 50  0001 C CNN
 F 3 "~" V 2700 3300 50  0001 C CNN
+F 4 " LTST-C230KRKT" H 2600 3300 50  0001 C CNN " mfg_part"
 	1    2700 3300
 	0    -1   -1   0   
 $EndComp
@@ -462,6 +501,7 @@ F 0 "R17" H 2768 4300 50  0000 L CNN
 F 1 "270" H 2768 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2740 4290 50  0001 C CNN
 F 3 "~" H 2700 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 2768 4400 50  0001 C CNN " mfg_part"
 	1    2700 4300
 	1    0    0    -1  
 $EndComp
@@ -473,6 +513,7 @@ F 0 "R16" H 3018 4300 50  0000 L CNN
 F 1 "270" H 3018 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2990 4290 50  0001 C CNN
 F 3 "~" H 2950 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 3018 4400 50  0001 C CNN " mfg_part"
 	1    2950 4300
 	1    0    0    -1  
 $EndComp
@@ -484,6 +525,7 @@ F 0 "R15" H 3268 4300 50  0000 L CNN
 F 1 "270" H 3268 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3240 4290 50  0001 C CNN
 F 3 "~" H 3200 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 3268 4400 50  0001 C CNN " mfg_part"
 	1    3200 4300
 	1    0    0    -1  
 $EndComp
@@ -495,6 +537,7 @@ F 0 "R14" H 3518 4300 50  0000 L CNN
 F 1 "270" H 3518 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3490 4290 50  0001 C CNN
 F 3 "~" H 3450 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 3518 4400 50  0001 C CNN " mfg_part"
 	1    3450 4300
 	1    0    0    -1  
 $EndComp
@@ -506,6 +549,7 @@ F 0 "R13" H 3768 4300 50  0000 L CNN
 F 1 "270" H 3768 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3740 4290 50  0001 C CNN
 F 3 "~" H 3700 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 3768 4400 50  0001 C CNN " mfg_part"
 	1    3700 4300
 	1    0    0    -1  
 $EndComp
@@ -517,6 +561,7 @@ F 0 "R12" H 4018 4300 50  0000 L CNN
 F 1 "270" H 4018 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3990 4290 50  0001 C CNN
 F 3 "~" H 3950 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 4018 4400 50  0001 C CNN " mfg_part"
 	1    3950 4300
 	1    0    0    -1  
 $EndComp
@@ -528,6 +573,7 @@ F 0 "R11" H 4268 4300 50  0000 L CNN
 F 1 "270" H 4268 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4240 4290 50  0001 C CNN
 F 3 "~" H 4200 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 4268 4400 50  0001 C CNN " mfg_part"
 	1    4200 4300
 	1    0    0    -1  
 $EndComp
@@ -539,6 +585,7 @@ F 0 "R10" H 4518 4300 50  0000 L CNN
 F 1 "270" H 4518 4255 50  0001 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4490 4290 50  0001 C CNN
 F 3 "~" H 4450 4300 50  0001 C CNN
+F 4 " RMCF0603JT270R" H 4518 4400 50  0001 C CNN " mfg_part"
 	1    4450 4300
 	1    0    0    -1  
 $EndComp
@@ -550,6 +597,7 @@ F 0 "SW1" H 8300 1835 50  0000 C CNN
 F 1 "0" H 8300 1744 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 8300 1750 50  0001 C CNN
 F 3 "~" H 8300 1750 50  0001 C CNN
+F 4 " PTS645SM50SMTR92 LFS" H 8300 1935 50  0001 C CNN " mfg_part"
 	1    8300 1550
 	1    0    0    -1  
 $EndComp
@@ -561,6 +609,7 @@ F 0 "SW4" H 8250 3135 50  0000 C CNN
 F 1 "RIGHT" H 8250 3044 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 8250 3050 50  0001 C CNN
 F 3 "~" H 8250 3050 50  0001 C CNN
+F 4 " PTS645SM50SMTR92 LFS" H 8250 3235 50  0001 C CNN " mfg_part"
 	1    8250 2850
 	1    0    0    -1  
 $EndComp
@@ -572,6 +621,7 @@ F 0 "SW2" H 8300 1185 50  0000 C CNN
 F 1 "1" H 8300 1094 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 8300 1100 50  0001 C CNN
 F 3 "~" H 8300 1100 50  0001 C CNN
+F 4 " PTS645SM50SMTR92 LFS" H 8300 1285 50  0001 C CNN " mfg_part"
 	1    8300 900 
 	1    0    0    -1  
 $EndComp
@@ -583,9 +633,219 @@ F 0 "SW3" H 7250 3135 50  0000 C CNN
 F 1 "LEFT" H 7250 3044 50  0000 C CNN
 F 2 "Button_Switch_SMD:SW_SPST_PTS645" H 7250 3050 50  0001 C CNN
 F 3 "~" H 7250 3050 50  0001 C CNN
+F 4 " PTS645SM50SMTR92 LFS" H 7250 3235 50  0001 C CNN " mfg_part"
 	1    7250 2850
 	1    0    0    -1  
 $EndComp
+$Comp
+L Transistor_BJT:BC847 Q1
+U 1 1 5DCE735B
+P 2100 1500
+F 0 "Q1" H 2291 1546 50  0000 L CNN
+F 1 "BC847" H 2291 1455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 1425 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 1500 50  0001 L CNN
+F 4 " BC847CLT1G" H 2291 1646 50  0001 C CNN " mfg_part"
+	1    2100 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q2
+U 1 1 5DCEF4F1
+P 2100 2000
+F 0 "Q2" H 2291 2046 50  0000 L CNN
+F 1 "BC847" H 2291 1955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 1925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 2000 50  0001 L CNN
+F 4 " BC847CLT1G" H 2291 2146 50  0001 C CNN " mfg_part"
+	1    2100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q3
+U 1 1 5DCF0074
+P 2100 2500
+F 0 "Q3" H 2291 2546 50  0000 L CNN
+F 1 "BC847" H 2291 2455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 2425 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 2500 50  0001 L CNN
+F 4 " BC847CLT1G" H 2291 2646 50  0001 C CNN " mfg_part"
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q4
+U 1 1 5DCF0E3A
+P 2100 3000
+F 0 "Q4" H 2291 3046 50  0000 L CNN
+F 1 "BC847" H 2291 2955 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 2925 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 3000 50  0001 L CNN
+F 4 " BC847CLT1G" H 2291 3146 50  0001 C CNN " mfg_part"
+	1    2100 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC847 Q5
+U 1 1 5DCF193C
+P 2100 3500
+F 0 "Q5" H 2291 3546 50  0000 L CNN
+F 1 "BC847" H 2291 3455 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 3425 50  0001 L CIN
+F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 3500 50  0001 L CNN
+F 4 " BC847CLT1G" H 2291 3646 50  0001 C CNN " mfg_part"
+	1    2100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R1
+U 1 1 5DDC4B69
+P 1650 1500
+F 0 "R1" V 1537 1500 50  0000 C CNN
+F 1 "10K" V 1536 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 1490 50  0001 C CNN
+F 3 "~" H 1650 1500 50  0001 C CNN
+F 4 " RC0603JR-0710KL" H 1537 1600 50  0001 C CNN " mfg_part"
+	1    1650 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5DDC5AC6
+P 1650 2000
+F 0 "R2" V 1537 2000 50  0000 C CNN
+F 1 "10K" V 1536 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 1990 50  0001 C CNN
+F 3 "~" H 1650 2000 50  0001 C CNN
+F 4 " RC0603JR-0710KL" H 1537 2100 50  0001 C CNN " mfg_part"
+	1    1650 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5DDC5FB8
+P 1650 2500
+F 0 "R3" V 1537 2500 50  0000 C CNN
+F 1 "10K" V 1536 2500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 2490 50  0001 C CNN
+F 3 "~" H 1650 2500 50  0001 C CNN
+F 4 " RC0603JR-0710KL" H 1537 2600 50  0001 C CNN " mfg_part"
+	1    1650 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R4
+U 1 1 5DDC6353
+P 1650 3000
+F 0 "R4" V 1537 3000 50  0000 C CNN
+F 1 "10K" V 1536 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 2990 50  0001 C CNN
+F 3 "~" H 1650 3000 50  0001 C CNN
+F 4 " RC0603JR-0710KL" H 1537 3100 50  0001 C CNN " mfg_part"
+	1    1650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R5
+U 1 1 5DDC68BA
+P 1650 3500
+F 0 "R5" V 1537 3500 50  0000 C CNN
+F 1 "10K" V 1536 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 3490 50  0001 C CNN
+F 3 "~" H 1650 3500 50  0001 C CNN
+F 4 " RC0603JR-0710KL" H 1537 3600 50  0001 C CNN " mfg_part"
+	1    1650 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDD #PWR01
+U 1 1 5DE310F0
+P 2300 1200
+F 0 "#PWR01" H 2300 1050 50  0001 C CNN
+F 1 "VDD" H 2317 1373 50  0000 C CNN
+F 2 "" H 2300 1200 50  0001 C CNN
+F 3 "" H 2300 1200 50  0001 C CNN
+	1    2300 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5DEB6466
+P 7450 2950
+F 0 "#PWR02" H 7450 2700 50  0001 C CNN
+F 1 "GND" H 7455 2777 50  0000 C CNN
+F 2 "" H 7450 2950 50  0001 C CNN
+F 3 "" H 7450 2950 50  0001 C CNN
+	1    7450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5DEB6D91
+P 8500 1650
+F 0 "#PWR04" H 8500 1400 50  0001 C CNN
+F 1 "GND" H 8505 1477 50  0000 C CNN
+F 2 "" H 8500 1650 50  0001 C CNN
+F 3 "" H 8500 1650 50  0001 C CNN
+	1    8500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5DEB70EC
+P 8450 2950
+F 0 "#PWR05" H 8450 2700 50  0001 C CNN
+F 1 "GND" H 8455 2777 50  0000 C CNN
+F 2 "" H 8450 2950 50  0001 C CNN
+F 3 "" H 8450 2950 50  0001 C CNN
+	1    8450 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5DEB73B8
+P 8500 1000
+F 0 "#PWR03" H 8500 750 50  0001 C CNN
+F 1 "GND" H 8505 827 50  0000 C CNN
+F 2 "" H 8500 1000 50  0001 C CNN
+F 3 "" H 8500 1000 50  0001 C CNN
+	1    8500 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 1500 0    50   Input ~ 0
+LED_ROW_0
+Text GLabel 1350 2000 0    50   Input ~ 0
+LED_ROW_1
+Text GLabel 1350 2500 0    50   Input ~ 0
+LED_ROW_2
+Text GLabel 1350 3000 0    50   Input ~ 0
+LED_ROW_3
+Text GLabel 1350 3500 0    50   Input ~ 0
+LED_ROW_4
+Text GLabel 4450 4600 3    50   3State ~ 0
+LED_COL_0
+Text GLabel 4200 4600 3    50   3State ~ 0
+LED_COL_1
+Text GLabel 3950 4600 3    50   3State ~ 0
+LED_COL_2
+Text GLabel 3700 4600 3    50   3State ~ 0
+LED_COL_3
+Text GLabel 3450 4600 3    50   3State ~ 0
+LED_COL_4
+Text GLabel 3200 4600 3    50   3State ~ 0
+LED_COL_5
+Text GLabel 2950 4600 3    50   3State ~ 0
+LED_COL_6
+Text GLabel 2700 4600 3    50   3State ~ 0
+LED_COL_7
+Text GLabel 6950 2850 0    50   3State ~ 0
+BUTTON_L
+Text GLabel 7950 2850 0    50   3State ~ 0
+BUTTON_R
+Text GLabel 8000 900  0    50   3State ~ 0
+BUTTON_1
+Text GLabel 8000 1550 0    50   3State ~ 0
+BUTTON_0
 Wire Wire Line
 	2700 1900 2700 2050
 Wire Wire Line
@@ -652,219 +912,132 @@ Wire Wire Line
 	4500 4150 4450 4150
 Wire Wire Line
 	2750 2400 2700 2400
-Connection ~ 2750 2400
 Wire Wire Line
 	2750 2400 2750 2900
 Wire Wire Line
 	2750 2900 2700 2900
-Connection ~ 2750 2900
 Wire Wire Line
 	2750 2900 2750 3400
 Wire Wire Line
 	2750 3400 2700 3400
-Connection ~ 2750 3400
 Wire Wire Line
 	2750 3400 2750 3900
 Wire Wire Line
 	2750 3900 2700 3900
-Connection ~ 2750 3900
 Wire Wire Line
 	2750 3900 2750 4150
 Wire Wire Line
 	3000 2400 2950 2400
-Connection ~ 3000 2400
 Wire Wire Line
 	3000 2400 3000 2900
 Wire Wire Line
 	3000 2900 2950 2900
-Connection ~ 3000 2900
 Wire Wire Line
 	3000 2900 3000 3400
 Wire Wire Line
 	3000 3400 2950 3400
-Connection ~ 3000 3400
 Wire Wire Line
 	3000 3400 3000 3900
 Wire Wire Line
 	3000 3900 2950 3900
-Connection ~ 3000 3900
 Wire Wire Line
 	3000 3900 3000 4150
 Wire Wire Line
 	3250 2400 3200 2400
-Connection ~ 3250 2400
 Wire Wire Line
 	3250 2400 3250 2900
 Wire Wire Line
 	3250 2900 3200 2900
-Connection ~ 3250 2900
 Wire Wire Line
 	3250 2900 3250 3400
 Wire Wire Line
 	3250 3400 3200 3400
-Connection ~ 3250 3400
 Wire Wire Line
 	3250 3400 3250 3900
 Wire Wire Line
 	3250 3900 3200 3900
-Connection ~ 3250 3900
 Wire Wire Line
 	3250 3900 3250 4150
 Wire Wire Line
 	3500 2400 3450 2400
-Connection ~ 3500 2400
 Wire Wire Line
 	3500 2400 3500 2900
 Wire Wire Line
 	3500 2900 3450 2900
-Connection ~ 3500 2900
 Wire Wire Line
 	3500 2900 3500 3400
 Wire Wire Line
 	3500 3400 3450 3400
-Connection ~ 3500 3400
 Wire Wire Line
 	3500 3400 3500 3900
 Wire Wire Line
 	3500 3900 3450 3900
-Connection ~ 3500 3900
 Wire Wire Line
 	3500 3900 3500 4150
 Wire Wire Line
 	3750 2400 3700 2400
-Connection ~ 3750 2400
 Wire Wire Line
 	3750 2400 3750 2900
 Wire Wire Line
 	3750 2900 3700 2900
-Connection ~ 3750 2900
 Wire Wire Line
 	3750 2900 3750 3400
 Wire Wire Line
 	3750 3400 3700 3400
-Connection ~ 3750 3400
 Wire Wire Line
 	3750 3400 3750 3900
 Wire Wire Line
 	3750 3900 3700 3900
-Connection ~ 3750 3900
 Wire Wire Line
 	3750 3900 3750 4150
 Wire Wire Line
 	4000 2400 3950 2400
-Connection ~ 4000 2400
 Wire Wire Line
 	4000 2400 4000 2900
 Wire Wire Line
 	4000 2900 3950 2900
-Connection ~ 4000 2900
 Wire Wire Line
 	4000 2900 4000 3400
 Wire Wire Line
 	4000 3400 3950 3400
-Connection ~ 4000 3400
 Wire Wire Line
 	4000 3400 4000 3900
 Wire Wire Line
 	4000 3900 3950 3900
-Connection ~ 4000 3900
 Wire Wire Line
 	4000 3900 4000 4150
 Wire Wire Line
 	4250 2400 4200 2400
-Connection ~ 4250 2400
 Wire Wire Line
 	4250 2400 4250 2900
 Wire Wire Line
 	4250 2900 4200 2900
-Connection ~ 4250 2900
 Wire Wire Line
 	4250 2900 4250 3400
 Wire Wire Line
 	4250 3400 4200 3400
-Connection ~ 4250 3400
 Wire Wire Line
 	4250 3400 4250 3900
 Wire Wire Line
 	4250 3900 4200 3900
-Connection ~ 4250 3900
 Wire Wire Line
 	4250 3900 4250 4150
 Wire Wire Line
 	4500 2400 4450 2400
-Connection ~ 4500 2400
 Wire Wire Line
 	4500 2400 4500 2900
 Wire Wire Line
 	4500 2900 4450 2900
-Connection ~ 4500 2900
 Wire Wire Line
 	4500 2900 4500 3400
 Wire Wire Line
 	4500 3400 4450 3400
-Connection ~ 4500 3400
 Wire Wire Line
 	4500 3400 4500 3900
 Wire Wire Line
 	4500 3900 4450 3900
-Connection ~ 4500 3900
 Wire Wire Line
 	4500 3900 4500 4150
-$Comp
-L Transistor_BJT:BC847 Q1
-U 1 1 5DCE735B
-P 2100 1500
-F 0 "Q1" H 2291 1546 50  0000 L CNN
-F 1 "BC847" H 2291 1455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 1425 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 1500 50  0001 L CNN
-	1    2100 1500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847 Q2
-U 1 1 5DCEF4F1
-P 2100 2000
-F 0 "Q2" H 2291 2046 50  0000 L CNN
-F 1 "BC847" H 2291 1955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 1925 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 2000 50  0001 L CNN
-	1    2100 2000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847 Q3
-U 1 1 5DCF0074
-P 2100 2500
-F 0 "Q3" H 2291 2546 50  0000 L CNN
-F 1 "BC847" H 2291 2455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 2425 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 2500 50  0001 L CNN
-	1    2100 2500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847 Q4
-U 1 1 5DCF0E3A
-P 2100 3000
-F 0 "Q4" H 2291 3046 50  0000 L CNN
-F 1 "BC847" H 2291 2955 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 2925 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 3000 50  0001 L CNN
-	1    2100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Transistor_BJT:BC847 Q5
-U 1 1 5DCF193C
-P 2100 3500
-F 0 "Q5" H 2291 3546 50  0000 L CNN
-F 1 "BC847" H 2291 3455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 3425 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 2100 3500 50  0001 L CNN
-	1    2100 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2200 1700 2700 1700
 Wire Wire Line
@@ -877,109 +1050,74 @@ Wire Wire Line
 	2200 3700 2700 3700
 Wire Wire Line
 	2700 1700 2950 1700
-Connection ~ 2700 1700
 Wire Wire Line
 	2950 1700 3200 1700
-Connection ~ 2950 1700
 Wire Wire Line
 	3450 1700 3200 1700
-Connection ~ 3200 1700
 Wire Wire Line
 	3450 1700 3700 1700
-Connection ~ 3450 1700
 Wire Wire Line
 	3700 1700 3950 1700
-Connection ~ 3700 1700
 Wire Wire Line
 	3950 1700 4200 1700
-Connection ~ 3950 1700
 Wire Wire Line
 	4200 1700 4450 1700
-Connection ~ 4200 1700
 Wire Wire Line
 	2700 2200 2950 2200
-Connection ~ 2700 2200
 Wire Wire Line
 	2950 2200 3200 2200
-Connection ~ 2950 2200
 Wire Wire Line
 	3200 2200 3450 2200
-Connection ~ 3200 2200
-Connection ~ 3450 2200
 Wire Wire Line
 	3450 2200 3700 2200
-Connection ~ 3700 2200
 Wire Wire Line
 	3700 2200 3950 2200
 Wire Wire Line
 	3950 2200 4200 2200
-Connection ~ 3950 2200
 Wire Wire Line
 	4200 2200 4450 2200
-Connection ~ 4200 2200
 Wire Wire Line
 	2700 2700 2950 2700
-Connection ~ 2700 2700
 Wire Wire Line
 	2950 2700 3200 2700
-Connection ~ 2950 2700
 Wire Wire Line
 	3200 2700 3450 2700
-Connection ~ 3200 2700
 Wire Wire Line
 	3450 2700 3700 2700
-Connection ~ 3450 2700
 Wire Wire Line
 	3700 2700 3950 2700
-Connection ~ 3700 2700
 Wire Wire Line
 	3950 2700 4200 2700
-Connection ~ 3950 2700
 Wire Wire Line
 	4200 2700 4450 2700
-Connection ~ 4200 2700
 Wire Wire Line
 	2700 3200 2950 3200
-Connection ~ 2700 3200
 Wire Wire Line
 	2950 3200 3200 3200
-Connection ~ 2950 3200
 Wire Wire Line
 	3200 3200 3450 3200
-Connection ~ 3200 3200
 Wire Wire Line
 	3450 3200 3700 3200
-Connection ~ 3450 3200
 Wire Wire Line
 	3700 3200 3950 3200
-Connection ~ 3700 3200
 Wire Wire Line
 	3950 3200 4200 3200
-Connection ~ 3950 3200
 Wire Wire Line
 	4200 3200 4450 3200
-Connection ~ 4200 3200
 Wire Wire Line
 	2700 3700 2950 3700
-Connection ~ 2700 3700
 Wire Wire Line
 	2950 3700 3200 3700
-Connection ~ 2950 3700
 Wire Wire Line
 	3200 3700 3450 3700
-Connection ~ 3200 3700
 Wire Wire Line
 	3450 3700 3700 3700
-Connection ~ 3450 3700
 Wire Wire Line
 	3700 3700 3950 3700
-Connection ~ 3700 3700
 Wire Wire Line
 	3950 3700 4200 3700
-Connection ~ 3950 3700
 Wire Wire Line
 	4200 3700 4450 3700
-Connection ~ 4200 3700
 Wire Wire Line
 	2200 3300 2300 3300
 Wire Wire Line
@@ -988,74 +1126,16 @@ Wire Wire Line
 	2300 1300 2200 1300
 Wire Wire Line
 	2200 1800 2300 1800
-Connection ~ 2300 1800
 Wire Wire Line
 	2300 1800 2300 1300
 Wire Wire Line
 	2200 2300 2300 2300
-Connection ~ 2300 2300
 Wire Wire Line
 	2300 2300 2300 1800
 Wire Wire Line
 	2200 2800 2300 2800
-Connection ~ 2300 2800
 Wire Wire Line
 	2300 2800 2300 2300
-$Comp
-L Device:R_US R1
-U 1 1 5DDC4B69
-P 1650 1500
-F 0 "R1" V 1537 1500 50  0000 C CNN
-F 1 "10K" V 1536 1500 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 1490 50  0001 C CNN
-F 3 "~" H 1650 1500 50  0001 C CNN
-	1    1650 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 5DDC5AC6
-P 1650 2000
-F 0 "R2" V 1537 2000 50  0000 C CNN
-F 1 "10K" V 1536 2000 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 1990 50  0001 C CNN
-F 3 "~" H 1650 2000 50  0001 C CNN
-	1    1650 2000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R3
-U 1 1 5DDC5FB8
-P 1650 2500
-F 0 "R3" V 1537 2500 50  0000 C CNN
-F 1 "10K" V 1536 2500 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 2490 50  0001 C CNN
-F 3 "~" H 1650 2500 50  0001 C CNN
-	1    1650 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R4
-U 1 1 5DDC6353
-P 1650 3000
-F 0 "R4" V 1537 3000 50  0000 C CNN
-F 1 "10K" V 1536 3000 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 2990 50  0001 C CNN
-F 3 "~" H 1650 3000 50  0001 C CNN
-	1    1650 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R5
-U 1 1 5DDC68BA
-P 1650 3500
-F 0 "R5" V 1537 3500 50  0000 C CNN
-F 1 "10K" V 1536 3500 50  0001 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1690 3490 50  0001 C CNN
-F 3 "~" H 1650 3500 50  0001 C CNN
-	1    1650 3500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1800 1500 1900 1500
 Wire Wire Line
@@ -1066,30 +1146,8 @@ Wire Wire Line
 	1800 3000 1900 3000
 Wire Wire Line
 	1800 3500 1900 3500
-$Comp
-L power:VDD #PWR01
-U 1 1 5DE310F0
-P 2300 1200
-F 0 "#PWR01" H 2300 1050 50  0001 C CNN
-F 1 "VDD" H 2317 1373 50  0000 C CNN
-F 2 "" H 2300 1200 50  0001 C CNN
-F 3 "" H 2300 1200 50  0001 C CNN
-	1    2300 1200
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 1200 2300 1300
-Connection ~ 2300 1300
-Text GLabel 1350 1500 0    50   Input ~ 0
-LED_ROW_0
-Text GLabel 1350 2000 0    50   Input ~ 0
-LED_ROW_1
-Text GLabel 1350 2500 0    50   Input ~ 0
-LED_ROW_2
-Text GLabel 1350 3000 0    50   Input ~ 0
-LED_ROW_3
-Text GLabel 1350 3500 0    50   Input ~ 0
-LED_ROW_4
 Wire Wire Line
 	1350 3500 1500 3500
 Wire Wire Line
@@ -1100,22 +1158,6 @@ Wire Wire Line
 	1350 2000 1500 2000
 Wire Wire Line
 	1350 1500 1500 1500
-Text GLabel 4450 4600 3    50   3State ~ 0
-LED_COL_0
-Text GLabel 4200 4600 3    50   3State ~ 0
-LED_COL_1
-Text GLabel 3950 4600 3    50   3State ~ 0
-LED_COL_2
-Text GLabel 3700 4600 3    50   3State ~ 0
-LED_COL_3
-Text GLabel 3450 4600 3    50   3State ~ 0
-LED_COL_4
-Text GLabel 3200 4600 3    50   3State ~ 0
-LED_COL_5
-Text GLabel 2950 4600 3    50   3State ~ 0
-LED_COL_6
-Text GLabel 2700 4600 3    50   3State ~ 0
-LED_COL_7
 Wire Wire Line
 	4450 4600 4450 4450
 Wire Wire Line
@@ -1132,50 +1174,6 @@ Wire Wire Line
 	2950 4450 2950 4600
 Wire Wire Line
 	2700 4450 2700 4600
-$Comp
-L power:GND #PWR02
-U 1 1 5DEB6466
-P 7450 2950
-F 0 "#PWR02" H 7450 2700 50  0001 C CNN
-F 1 "GND" H 7455 2777 50  0000 C CNN
-F 2 "" H 7450 2950 50  0001 C CNN
-F 3 "" H 7450 2950 50  0001 C CNN
-	1    7450 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR04
-U 1 1 5DEB6D91
-P 8500 1650
-F 0 "#PWR04" H 8500 1400 50  0001 C CNN
-F 1 "GND" H 8505 1477 50  0000 C CNN
-F 2 "" H 8500 1650 50  0001 C CNN
-F 3 "" H 8500 1650 50  0001 C CNN
-	1    8500 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5DEB70EC
-P 8450 2950
-F 0 "#PWR05" H 8450 2700 50  0001 C CNN
-F 1 "GND" H 8455 2777 50  0000 C CNN
-F 2 "" H 8450 2950 50  0001 C CNN
-F 3 "" H 8450 2950 50  0001 C CNN
-	1    8450 2950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 5DEB73B8
-P 8500 1000
-F 0 "#PWR03" H 8500 750 50  0001 C CNN
-F 1 "GND" H 8505 827 50  0000 C CNN
-F 2 "" H 8500 1000 50  0001 C CNN
-F 3 "" H 8500 1000 50  0001 C CNN
-	1    8500 1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 2850 7450 2950
 Wire Wire Line
@@ -1184,14 +1182,6 @@ Wire Wire Line
 	8450 2850 8450 2950
 Wire Wire Line
 	8500 900  8500 1000
-Text GLabel 6950 2850 0    50   3State ~ 0
-BUTTON_L
-Text GLabel 7950 2850 0    50   3State ~ 0
-BUTTON_R
-Text GLabel 8000 900  0    50   3State ~ 0
-BUTTON_1
-Text GLabel 8000 1550 0    50   3State ~ 0
-BUTTON_0
 Wire Wire Line
 	8000 900  8100 900 
 Wire Wire Line
@@ -1200,4 +1190,75 @@ Wire Wire Line
 	8000 1550 8100 1550
 Wire Wire Line
 	7950 2850 8050 2850
+Connection ~ 2750 2400
+Connection ~ 2750 2900
+Connection ~ 2750 3400
+Connection ~ 2750 3900
+Connection ~ 3000 2400
+Connection ~ 3000 2900
+Connection ~ 3000 3400
+Connection ~ 3000 3900
+Connection ~ 3250 2400
+Connection ~ 3250 2900
+Connection ~ 3250 3400
+Connection ~ 3250 3900
+Connection ~ 3500 2400
+Connection ~ 3500 2900
+Connection ~ 3500 3400
+Connection ~ 3500 3900
+Connection ~ 3750 2400
+Connection ~ 3750 2900
+Connection ~ 3750 3400
+Connection ~ 3750 3900
+Connection ~ 4000 2400
+Connection ~ 4000 2900
+Connection ~ 4000 3400
+Connection ~ 4000 3900
+Connection ~ 4250 2400
+Connection ~ 4250 2900
+Connection ~ 4250 3400
+Connection ~ 4250 3900
+Connection ~ 4500 2400
+Connection ~ 4500 2900
+Connection ~ 4500 3400
+Connection ~ 4500 3900
+Connection ~ 2700 1700
+Connection ~ 2950 1700
+Connection ~ 3200 1700
+Connection ~ 3450 1700
+Connection ~ 3700 1700
+Connection ~ 3950 1700
+Connection ~ 4200 1700
+Connection ~ 2700 2200
+Connection ~ 2950 2200
+Connection ~ 3200 2200
+Connection ~ 3450 2200
+Connection ~ 3700 2200
+Connection ~ 3950 2200
+Connection ~ 4200 2200
+Connection ~ 2700 2700
+Connection ~ 2950 2700
+Connection ~ 3200 2700
+Connection ~ 3450 2700
+Connection ~ 3700 2700
+Connection ~ 3950 2700
+Connection ~ 4200 2700
+Connection ~ 2700 3200
+Connection ~ 2950 3200
+Connection ~ 3200 3200
+Connection ~ 3450 3200
+Connection ~ 3700 3200
+Connection ~ 3950 3200
+Connection ~ 4200 3200
+Connection ~ 2700 3700
+Connection ~ 2950 3700
+Connection ~ 3200 3700
+Connection ~ 3450 3700
+Connection ~ 3700 3700
+Connection ~ 3950 3700
+Connection ~ 4200 3700
+Connection ~ 2300 1800
+Connection ~ 2300 2300
+Connection ~ 2300 2800
+Connection ~ 2300 1300
 $EndSCHEMATC

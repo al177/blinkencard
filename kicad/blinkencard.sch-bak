@@ -1,15 +1,14 @@
 EESchema Schematic File Version 4
-LIBS:blinkencard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 4
-Title ""
+Title "Blinkencard"
 Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Rev "v2.0"
+Comp "Andrew Litt"
+Comment1 "Top Level"
 Comment2 ""
 Comment3 ""
 Comment4 ""
