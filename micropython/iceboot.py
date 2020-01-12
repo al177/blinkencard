@@ -4,13 +4,13 @@ import utime
 
 
 def boot(binfile):
-    creset=machine.Pin(21,machine.Pin.OUT_OD, machine.Pin.PULL_UP)
+    creset=machine.Pin(21,machine.Pin.OPEN_DRAIN, machine.Pin.PULL_UP)
     cdone=machine.Pin(22,machine.Pin.IN, machine.Pin.PULL_UP)
     ss=machine.Pin(5,machine.Pin.OUT, machine.Pin.PULL_UP)
     sck=machine.Pin(18, machine.Pin.OUT, machine.Pin.PULL_UP)
     mosi=machine.Pin(23, machine.Pin.OUT, machine.Pin.PULL_UP)
     miso=machine.Pin(19, machine.Pin.IN, machine.Pin.PULL_DOWN)
-    s=machine.SPI(spihost=machine.SPI.VSPI,polarity=1,phase=1,baudrate=4000000, sck=sck, mosi=mosi, miso=miso) # VSPI
+    s=machine.SPI(2,polarity=1,phase=1,baudrate=4000000, sck=sck, mosi=mosi, miso=miso) # VSPI
     creset.value(0)
     ss.value(0)
     utime.sleep_ms(500)
