@@ -6,3 +6,7 @@ webrepl.start()
 import network
 ap=network.WLAN(network.AP_IF)
 ap.active(True)
+import iceboot
+iceboot.boot('altair.bin')
+import term_server
+term_server.go()
