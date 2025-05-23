@@ -1,9 +1,9 @@
 PERIMETER_THICKNESS = 1.24;
-BOTTOM_WALL_THICKNESS = 1.6;
+BOTTOM_WALL_THICKNESS = 2;
 PCB_MARGIN = 0.1; // gap between case and PCB
 
 
-CAVITY_DEPTH = 8; // depth in case behind the PCB
+CAVITY_DEPTH = 7.6; // depth in case behind the PCB
 BEZEL_LIP_DEPTH = 1.4; // height of the bezel over the PCB
 
 PCB_THICKNESS = 1.6;
