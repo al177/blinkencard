@@ -17,9 +17,11 @@ def boot(binfile):
     creset.value(1)
     utime.sleep_ms(100)
     with open(binfile,'rb') as f:
-        b=1
-        while b:
+        while True:
             b=f.read(32)
+            if(len(b) <= 0):
+                break
+            print(len(b))
             s.write(b)
     # pad with > 49 dummy SCKs
     bytecnt=0
