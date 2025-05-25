@@ -21,7 +21,6 @@ def boot(binfile):
             b=f.read(32)
             if(len(b) <= 0):
                 break
-            print(len(b))
             s.write(b)
     # pad with > 49 dummy SCKs
     bytecnt=0
