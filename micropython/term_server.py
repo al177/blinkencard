@@ -86,12 +86,16 @@ def go():
                                     event_s.close()
                                     connected = False
                                     running = False
-                                    break 
+                                    break
+                                # Reload bitstream on 'r'
                                 if (test_char == 0x72 or test_char == 0x52):
-                                    cl.write(b'Reloading config')
+                                    cl.write(b'\r\nReloading config\r\n')
                                     iceboot.boot('altair.bin')
                                     continue
-                                    
+                                # Run a macro on 0-9
+                                if (test_char >= 0x30 and test_char <= 0x39):
+                                    cl.write(b'\r\nRun macro ' + bytes([test_char]) + b'\r\n')
+                                    continue
                             to_send += bytes([test_char])
                         uart.write(to_send)
     s.close()
